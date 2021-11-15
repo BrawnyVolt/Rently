@@ -1,0 +1,2 @@
+class RentableUsersController < ApplicationController
+end

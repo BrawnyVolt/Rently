@@ -1,0 +1,2 @@
+class RentableUser < ApplicationRecord
+end
