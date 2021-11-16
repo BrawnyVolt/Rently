@@ -3,10 +3,10 @@ class CreateRentables < ActiveRecord::Migration[6.1]
     create_table :rentables do |t|
       t.string :property_type
       t.string :address
-      t.int :beds
-      t.int :baths
-      t.int :property_id
-      t.int :price
+      t.integer :beds
+      t.integer :baths
+      t.integer :property_id
+      t.integer :price
       t.string :contact_info
       t.string :img_url
 
